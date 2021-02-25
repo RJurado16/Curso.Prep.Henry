@@ -1,0 +1,15 @@
+** Objetos:
+Los objetos permiten modelar la realidad. Son similares a los arrays, ya que también son colecciones de datos. Como diferencia, los objetos no poseen un índice asociativo que estructura su acceso. Adicionalmente, los objetos pueden poseer propiedades y métodos. JavaScript está diseñado de forma tal que, en última instancia, todas las cosas son objetos.
+
+** Propiedades:
+Las propiedades son cualidades de un objeto. Podríamos tener varios objetos con la misma cualidad, pero diferente valor (ej., todo ser humano tiene una altura, pero los valores varían de individuo a individuo).
+
+** Métodos:
+Los métodos son las funcionalidades que puede ejecutar un objeto. Ej., todos los humanos tenemos la función de respirar (un método de cada objeto "humano") que se ejecuta de la misma manera, pero podríamos tener una función de saludar que varía según el idioma natal de cada uno (otro método de cada objeto "humano").
+
+** Bucle for...in:
+Este bucle es específico de los objetos, y permite recorrer todos los elementos dentro del objeto sin depender de ningún índice, lo que le brinda mayor flexibilidad que a un array.
+
+** Notación de puntos vs. notación de corchetes:
+Existen dos formas de referenciar a las propiedades y métodos de un objeto, la notación de puntos y la notación de corchetes. La primera funciona de la siguiente forma: objeto.propiedad, objeto.método(); mientras que la segunda tiene similitud de asignación/acceso con el array, siendo objeto[propiedad] y objeto[metodo](). Generalmente, la notación de corchetes se usa con variables.
+
