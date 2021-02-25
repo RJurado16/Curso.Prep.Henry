@@ -1,0 +1,2 @@
+* Arrays:
+Los arrays son un tipo de dato que actúa como una colección de elementos. Los elementos están posicionados según un índice numérico ascendente comenzando desde el número 0, el cual corresponde al primer elemento del array (el número 1, al segundo elemento, etc.). Se puede acceder a cada elemento según el índice asociado. Un array puede coleccionar dentro de sí a elementos de distintos tipos, como números, strings, booleanos, objetos e incluso otros arrays.
