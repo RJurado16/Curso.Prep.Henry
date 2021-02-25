@@ -1,0 +1,27 @@
+body{
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F0%2F03%2FFlag_of_Italy.svg%2F1200px-Flag_of_Italy.svg.png&f=1&nofb=1');
+}
+
+h1 {
+  color: purple;
+}
+img {
+  width: 400px;
+}
+#thirdDiv {
+  width: 500px;
+  height: 600px;
+  background-color: lightblue;
+  padding: 50px;
+  border: 1px solid black;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+.divClass, #thirdDiv {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}

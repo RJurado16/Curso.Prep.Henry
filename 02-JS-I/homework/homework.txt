@@ -1,0 +1,14 @@
+* Variables:
+Una variable es como un contenedor de datos. Para usarla, primero hay que declararla con una palabra clave (var, let, const) y luego se le pueden "poner datos dentro del contenedor" realizando una asignación de valor.
+
+* Strings:
+Un string es un tipo de dato que consiste en una cadena de caracteres.
+
+* Funciones:
+Una función es una estructura que optimiza el código permitiendo reusarlo cuando se la llame o invoque. Puede recibir argumentos o parámetros, los que podrán ser utilizados dentro del bloque de código de la función permitiendo la posibilidad de variar los resultados. Los parámetros "absorben" los valores que les pasamos cuando invocamos la función. Además, la función puede retornar un valor, pudiendo éste ser usado fuera del código de la función. Cuando se encuentra con "return" se sale de la función.
+
+* Declaraciones if:
+Una declaración if es una estructura lógica que permite bifurcar el camino de ejecución del código. El if tiene una condición que debe evaluarse a "verdadera" o "falsa", y dependiendo de estos dos únicos posibles resultados de la condición, se tomará un camino u otro que llevará a la ejecución de cierto código o cierto otro código. Al terminar el if, se sigue linealmente con el código.
+
+* Valores booleanos:
+El booleano es un tipo de dato que puede asumir solo dos valores, "verdadero" o "falso". Este tipo de dato es muy útil para usarse en estructuras condicionales, donde si algo es verdadero se ejecuta tal código y si es falso se hace tal otro camino.
