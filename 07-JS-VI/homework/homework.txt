@@ -1,0 +1,10 @@
+* Funciones callback:
+Una función callback es aquella que es pasada como argumento dentro de otra función. Ej.:
+function soyUnaFuncion (soyUnaFuncionCallback){
+	...
+}
+function soyUnaFuncionCallback() {
+	return ...;
+}
+
+Las funciones callback dan versatilidad a JavaScript ya que el valor retornado por ellas será usado como parámetro dentro del código de la función donde son pasadas, añadiendo dinamismo a las ejecuciones de esas otras funciones.
