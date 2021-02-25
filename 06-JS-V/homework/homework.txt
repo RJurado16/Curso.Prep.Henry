@@ -1,0 +1,6 @@
+*constructores:
+Las funciones constructoras nos permiten indicar cómo "fabricar" objetos a partir de esa clase, señalandole qué propiedades y métodos deberá tener cada instancia de esa clase, es decir, cada objeto que surja basado en ella.
+
+*prototype:
+El prototype es una propiedad de una clase, la cual nos permite establecer métodos comunes para todos los objetos que se instanciarán. Esto nos ahorra tener que definir diferentes funciones (métodos) para cada objeto, pudiendo hacerlo sólo en el prototipo y simplemente tener una referencia a éstas.
+Cuando un objeto no posee un método, empezará a escalar hacia arriba por la cadena de prototipos, buscando si en su propiedad objeto.__proto__ encuentra el Class.prototype, en otras palabras, "si el objeto no tiene un método, trepará la cadena y buscará si su padre lo tiene: si lo tiene podrá usarlo, si no lo tiene, buscará si el padre de su padre lo tiene".
